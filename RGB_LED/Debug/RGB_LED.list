@@ -372,7 +372,7 @@ Disassembly of section .text:
 08000544 <led_write>:
 
 /* USER CODE BEGIN PV */
-#define LED_COMMON_ANODE 1
+#define LED_COMMON_ANODE 0
 
 static inline void led_write(GPIO_TypeDef *port, uint16_t pin, uint8_t on)
 {
@@ -386,19 +386,19 @@ static inline void led_write(GPIO_TypeDef *port, uint16_t pin, uint8_t on)
  8000552:	707b      	strb	r3, [r7, #1]
   if (LED_COMMON_ANODE) {
     HAL_GPIO_WritePin(port, pin, on ? GPIO_PIN_RESET : GPIO_PIN_SET); // LOW=ON
+  } else {
+    HAL_GPIO_WritePin(port, pin, on ? GPIO_PIN_SET : GPIO_PIN_RESET); // HIGH=ON
  8000554:	787b      	ldrb	r3, [r7, #1]
  8000556:	2b00      	cmp	r3, #0
- 8000558:	bf0c      	ite	eq
- 800055a:	2301      	moveq	r3, #1
- 800055c:	2300      	movne	r3, #0
+ 8000558:	bf14      	ite	ne
+ 800055a:	2301      	movne	r3, #1
+ 800055c:	2300      	moveq	r3, #0
  800055e:	b2db      	uxtb	r3, r3
  8000560:	461a      	mov	r2, r3
  8000562:	887b      	ldrh	r3, [r7, #2]
  8000564:	4619      	mov	r1, r3
  8000566:	6878      	ldr	r0, [r7, #4]
  8000568:	f000 fd9a 	bl	80010a0 <HAL_GPIO_WritePin>
-  } else {
-    HAL_GPIO_WritePin(port, pin, on ? GPIO_PIN_SET : GPIO_PIN_RESET); // HIGH=ON
   }
 }
  800056c:	bf00      	nop

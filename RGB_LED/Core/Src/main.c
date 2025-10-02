@@ -24,7 +24,7 @@
 COM_InitTypeDef BspCOMInit;
 
 /* USER CODE BEGIN PV */
-#define LED_COMMON_ANODE 1
+#define LED_COMMON_ANODE 0
 
 static inline void led_write(GPIO_TypeDef *port, uint16_t pin, uint8_t on)
 {
