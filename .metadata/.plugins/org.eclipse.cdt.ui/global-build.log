@@ -1,21 +1,21 @@
-20:20:09 **** Incremental Build of configuration Debug for project RGB_LED ****
+22:55:51 **** Incremental Build of configuration Debug for project Button_Toggle ****
 make -j8 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_NUCLEO_64 -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/BSP/STM32G4xx_Nucleo -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "RGB_LED.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/idris/Desktop/Embedded-Projects-STM32/RGB_LED/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RGB_LED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: RGB_LED.elf
+arm-none-eabi-gcc -o "Button_Toggle.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Button_Toggle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Button_Toggle.elf
  
-arm-none-eabi-size  RGB_LED.elf 
-arm-none-eabi-objdump -h -S RGB_LED.elf  > "RGB_LED.list"
+arm-none-eabi-size  Button_Toggle.elf 
+arm-none-eabi-objdump -h -S Button_Toggle.elf  > "Button_Toggle.list"
    text	   data	    bss	    dec	    hex	filename
-  10288	     16	   1736	  12040	   2f08	RGB_LED.elf
+  10556	     16	   1736	  12308	   3014	Button_Toggle.elf
 Finished building: default.size.stdout
  
-Finished building: RGB_LED.list
+Finished building: Button_Toggle.list
  
-20:20:29 **** Incremental Build of configuration Debug for project RGB_LED ****
+22:56:14 **** Incremental Build of configuration Debug for project Button_Toggle ****
 make -j8 all 
-arm-none-eabi-size  RGB_LED.elf 
+arm-none-eabi-size  Button_Toggle.elf 
    text	   data	    bss	    dec	    hex	filename
-  10288	     16	   1736	  12040	   2f08	RGB_LED.elf
+  10556	     16	   1736	  12308	   3014	Button_Toggle.elf
 Finished building: default.size.stdout
  

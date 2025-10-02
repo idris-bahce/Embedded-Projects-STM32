@@ -871,3 +871,527 @@
 2025-10-02 19:42:33,056 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 784mS.
 2025-10-02 19:42:33,057 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
 2025-10-02 19:42:33,058 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 21:02:32,801 [INFO] WebApp:194 - Connection lost
+2025-10-02 21:02:38,202 [INFO] WebApp:191 - Connection restablished
+2025-10-02 21:02:41,992 [INFO] WebApp:194 - Connection lost
+2025-10-02 21:02:42,286 [INFO] WebApp:191 - Connection restablished
+2025-10-02 22:12:41,288 [INFO] MainUpdater:2872 - connection check result : 10
+2025-10-02 22:12:41,441 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-10-02 22:12:41,442 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-10-02 22:12:41,443 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2025-10-02 22:12:43,953 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-10-02 22:12:43,954 [INFO] DetailPanel:341 - Set advertising image to /home/idris/STM32Cube/Repository//en.2400x1350px.jpeg
+2025-10-02 22:12:49,889 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-10-02 22:12:50,009 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-10-02 22:12:50,009 [INFO] DetailPanel:341 - Set advertising image to /home/idris/STM32Cube/Repository//en.2400x1350px.jpeg
+2025-10-02 22:13:01,089 [INFO] MetaSearchPanel:254 - search for filter with key=Nucleo-64
+2025-10-02 22:13:01,089 [INFO] MetaSearchPanel:355 - search for filter component Type
+2025-10-02 22:13:01,089 [INFO] MetaSearchPanel:329 - Collapse all filters sections
+2025-10-02 22:13:33,758 [INFO] MainUpdater:2872 - connection check result : 10
+2025-10-02 22:13:33,759 [INFO] MainUpdater:2872 - connection check result : 10
+2025-10-02 22:13:33,767 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:13:33,799 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-10-02 22:13:33,799 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.141
+2025-10-02 22:13:33,835 [ERROR] ProjectManagerView:395 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2678) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:979) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3766) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1962) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:555) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:392) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:789) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:287) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:341) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:250) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1191) ~[com.st.stm32cube.common.mx_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.14.1.202504091515/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-10-02 22:13:33,844 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-10-02 22:13:33,844 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-10-02 22:13:33,845 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-10-02 22:13:33,849 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-10-02 22:13:33,865 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 836575728 Bytes (1073741824)
+2025-10-02 22:13:33,879 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-10-02 22:13:33,879 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.141
+2025-10-02 22:13:33,879 [INFO] OpenFileManager:354 - Change cursor
+2025-10-02 22:13:33,969 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-10-02 22:13:33,991 [INFO] Mcu:2011 - Initializing MCU STM32G474R(B-C-E)Tx STM32G474RETx STM32G474RET6
+2025-10-02 22:13:39,806 [INFO] Context:756 - Trying to add GPIOservice into a context  which must be forbidden
+2025-10-02 22:13:41,827 [INFO] Rule:225 - rule Adapt Old IOC before rework replace old CORTEX_M33/CORTEX_M55 attributes by the new one. is applicable
+2025-10-02 22:13:41,828 [INFO] Rule:225 - rule Rename parametre of RCC RCC_APBDBG_DIV2 to RCC_TIMPRES_DIV2 is applicable
+2025-10-02 22:13:41,828 [INFO] Rule:225 - rule Rename DIE493 pin PA10 [PA12] -> PA10 is applicable
+2025-10-02 22:13:41,828 [INFO] Rule:225 - rule Rename DIE493 pin PA9 [PA11] -> PA9 is applicable
+2025-10-02 22:13:41,828 [INFO] Rule:225 - rule Adapt Old IOC CSI. is applicable
+2025-10-02 22:13:41,828 [INFO] DbConfProperties:307 - Apply Compatibility (0/5 Rules)
+2025-10-02 22:13:41,855 [INFO] ApiDbMcu:508 - Load IP Config File for NUCLEO-G474RE
+2025-10-02 22:13:42,003 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Pin13 (VP_RIF_VS_RIF1) cannot be retrieved for this MCU
+2025-10-02 22:13:42,004 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Unknown IP (CORTEX_M4)
+2025-10-02 22:13:42,222 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-10-02 22:13:42,222 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-10-02 22:13:42,222 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-10-02 22:13:42,222 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-10-02 22:13:42,222 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-10-02 22:13:42,236 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,237 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,238 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-10-02 22:13:42,239 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2025-10-02 22:13:42,406 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-10-02 22:13:43,502 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-10-02 22:13:43,808 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 671498040 Bytes (1073741824)
+2025-10-02 22:13:52,280 [INFO] BspBoardWizard:580 - Analytics plugin initialized with success
+2025-10-02 22:13:52,555 [INFO] BspBoardWizard:580 - Analytics plugin initialized with success
+2025-10-02 22:13:52,596 [INFO] BspBoardWizard:580 - Analytics plugin initialized with success
+2025-10-02 22:13:52,642 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-10-02 22:13:52,643 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-PM33A1 1.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IotConnect X-CUBE-IoTC-DA16k-PMOD 1.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.2.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC12 1.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-10-02 22:13:52,643 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.2.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.4.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-10-02 22:13:52,644 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.1.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.6
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.26.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-STSE01 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST67W61 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.2.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STAIOTCFT 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.1.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.3.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-10-02 22:13:52,645 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2025-10-02 22:13:52,646 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-10-02 22:13:52,646 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-10-02 22:13:53,456 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-10-02 22:13:53,456 [INFO] PinOutPanel:1589 - setPackage(STM32G474RETx,LQFP64)
+2025-10-02 22:13:53,889 [INFO] UtilMem:75 - Before build in PCC Used Memory: 420126328 Bytes (1073741824)
+2025-10-02 22:13:54,674 [INFO] UtilMem:75 - After build in PCC Used Memory: 524461688 Bytes (1073741824)
+2025-10-02 22:13:54,717 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,717 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,717 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,719 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,719 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,719 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,719 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,729 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,734 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,734 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,734 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,734 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,736 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,736 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,737 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-10-02 22:13:54,770 [INFO] CADModel:165 - CPN selected for project levelSTM32G474RET6
+2025-10-02 22:13:54,770 [INFO] CADModel:114 - Register for checkConnection events
+2025-10-02 22:13:54,809 [INFO] OpenFileManager:385 - Restore cursor
+2025-10-02 22:13:55,304 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 632467936 Bytes (1073741824)
+2025-10-02 22:13:55,388 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 656055928 Bytes (1073741824)
+2025-10-02 22:13:55,782 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NUCLEO-G474RE
+2025-10-02 22:13:55,782 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-10-02 22:13:55,782 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-10-02 22:13:55,782 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-10-02 22:13:55,783 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-10-02 22:13:55,783 [INFO] CodeGenerator:882 - code generatio: config db path: /opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db/
+2025-10-02 22:13:55,972 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp_save
+2025-10-02 22:13:56,475 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp
+2025-10-02 22:13:56,548 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp_save
+2025-10-02 22:13:56,834 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp
+2025-10-02 22:13:56,914 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h_save
+2025-10-02 22:13:57,097 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h
+2025-10-02 22:13:57,099 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp_save
+2025-10-02 22:13:57,134 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:13:57,280 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp
+2025-10-02 22:13:57,282 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp_save
+2025-10-02 22:13:57,457 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp
+2025-10-02 22:13:57,459 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp_save
+2025-10-02 22:13:57,598 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp
+2025-10-02 22:13:57,599 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp_save
+2025-10-02 22:13:57,694 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp
+2025-10-02 22:13:57,697 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp_save
+2025-10-02 22:13:57,785 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp
+2025-10-02 22:13:57,786 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp_save
+2025-10-02 22:13:57,861 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp
+2025-10-02 22:13:57,869 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c_save
+2025-10-02 22:13:58,219 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c
+2025-10-02 22:13:58,221 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h_save
+2025-10-02 22:13:58,303 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h
+2025-10-02 22:13:58,311 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c_save
+2025-10-02 22:13:58,497 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c
+2025-10-02 22:13:58,499 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp_save
+2025-10-02 22:13:58,598 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp
+2025-10-02 22:13:58,603 [INFO] CodeEngine:319 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-10-02 22:13:58,723 [INFO] CodeEngine:343 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h
+2025-10-02 22:13:58,752 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-10-02 22:13:58,758 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-10-02 22:13:58,768 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h_save
+2025-10-02 22:13:58,954 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h
+2025-10-02 22:13:58,955 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c_save
+2025-10-02 22:13:59,062 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c
+2025-10-02 22:13:59,298 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 17mS.
+2025-10-02 22:13:59,299 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-02 22:13:59,391 [INFO] ConfigFileManager:1590 - The Die is : DIE469
+2025-10-02 22:13:59,394 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-10-02 22:13:59,397 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-10-02 22:13:59,401 [INFO] ApiDbMcu:508 - Load IP Config File for USBPD
+2025-10-02 22:13:59,407 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-10-02 22:14:02,382 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3082mS.
+2025-10-02 22:14:02,382 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:14:02,383 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:14:03,065 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-10-02 22:14:03,070 [INFO] ApiDb:448 - Save user favorites file /home/idris/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2025-10-02 22:14:03,070 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-10-02 22:14:03,072 [INFO] ApiDb:448 - Save user favorites file /home/idris/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2025-10-02 22:14:03,072 [INFO] ApiDb:452 - User favorites Boards=[]
+2025-10-02 22:14:36,866 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 840265376 Bytes (1073741824)
+2025-10-02 22:14:37,132 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NUCLEO-G474RE
+2025-10-02 22:14:37,132 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-10-02 22:14:37,132 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-10-02 22:14:37,132 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:14:37,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-10-02 22:14:37,133 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-10-02 22:14:37,134 [INFO] CodeGenerator:882 - code generatio: config db path: /opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db/
+2025-10-02 22:14:37,322 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp_save
+2025-10-02 22:14:37,478 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp
+2025-10-02 22:14:37,536 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp_save
+2025-10-02 22:14:37,636 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp
+2025-10-02 22:14:37,692 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h_save
+2025-10-02 22:14:37,760 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h
+2025-10-02 22:14:37,761 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp_save
+2025-10-02 22:14:37,833 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp
+2025-10-02 22:14:37,834 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp_save
+2025-10-02 22:14:37,904 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp
+2025-10-02 22:14:37,905 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp_save
+2025-10-02 22:14:37,970 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp
+2025-10-02 22:14:37,971 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp_save
+2025-10-02 22:14:38,035 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp
+2025-10-02 22:14:38,036 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp_save
+2025-10-02 22:14:38,094 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp
+2025-10-02 22:14:38,096 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp_save
+2025-10-02 22:14:38,149 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp
+2025-10-02 22:14:38,154 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c_save
+2025-10-02 22:14:38,223 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c
+2025-10-02 22:14:38,225 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h_save
+2025-10-02 22:14:38,312 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h
+2025-10-02 22:14:38,321 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c_save
+2025-10-02 22:14:38,457 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c
+2025-10-02 22:14:38,459 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp_save
+2025-10-02 22:14:38,562 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp
+2025-10-02 22:14:38,569 [INFO] CodeEngine:319 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-10-02 22:14:38,706 [INFO] CodeEngine:343 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h
+2025-10-02 22:14:38,741 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-10-02 22:14:38,751 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h_save
+2025-10-02 22:14:38,895 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h
+2025-10-02 22:14:38,897 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c_save
+2025-10-02 22:14:39,034 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c
+2025-10-02 22:14:39,316 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 28mS.
+2025-10-02 22:14:39,318 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-02 22:14:39,411 [INFO] ConfigFileManager:1590 - The Die is : DIE469
+2025-10-02 22:14:40,296 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 978mS.
+2025-10-02 22:14:40,296 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:14:40,297 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:28:39,910 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 611030192 Bytes (1073741824)
+2025-10-02 22:28:40,500 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:28:44,188 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 682333360 Bytes (1073741824)
+2025-10-02 22:28:44,288 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:28:44,724 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NUCLEO-G474RE
+2025-10-02 22:28:44,725 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-10-02 22:28:44,725 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-10-02 22:28:44,725 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-10-02 22:28:44,726 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-10-02 22:28:44,726 [INFO] CodeGenerator:882 - code generatio: config db path: /opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db/
+2025-10-02 22:28:44,874 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp_save
+2025-10-02 22:28:45,399 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp
+2025-10-02 22:28:45,508 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp_save
+2025-10-02 22:28:45,803 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp
+2025-10-02 22:28:45,929 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h_save
+2025-10-02 22:28:46,129 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h
+2025-10-02 22:28:46,132 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp_save
+2025-10-02 22:28:46,286 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp
+2025-10-02 22:28:46,288 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp_save
+2025-10-02 22:28:46,440 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp
+2025-10-02 22:28:46,443 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp_save
+2025-10-02 22:28:46,608 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp
+2025-10-02 22:28:46,610 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp_save
+2025-10-02 22:28:46,775 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp
+2025-10-02 22:28:46,777 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp_save
+2025-10-02 22:28:46,899 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp
+2025-10-02 22:28:46,901 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp_save
+2025-10-02 22:28:47,051 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp
+2025-10-02 22:28:47,061 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c_save
+2025-10-02 22:28:47,556 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c
+2025-10-02 22:28:47,558 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h_save
+2025-10-02 22:28:47,671 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h
+2025-10-02 22:28:47,682 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c_save
+2025-10-02 22:28:47,808 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c
+2025-10-02 22:28:47,810 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp_save
+2025-10-02 22:28:47,923 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp
+2025-10-02 22:28:47,930 [INFO] CodeEngine:319 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-10-02 22:28:48,045 [INFO] CodeEngine:343 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h
+2025-10-02 22:28:48,071 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-10-02 22:28:48,081 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h_save
+2025-10-02 22:28:48,238 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h
+2025-10-02 22:28:48,240 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c_save
+2025-10-02 22:28:48,413 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c
+2025-10-02 22:28:48,783 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 33mS.
+2025-10-02 22:28:48,786 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-02 22:28:48,911 [INFO] ConfigFileManager:1590 - The Die is : DIE469
+2025-10-02 22:28:50,148 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1362mS.
+2025-10-02 22:28:50,149 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:28:50,150 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:37:40,900 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 433565128 Bytes (1073741824)
+2025-10-02 22:37:41,681 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:37:42,729 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 673689032 Bytes (1073741824)
+2025-10-02 22:38:38,532 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 458391592 Bytes (1073741824)
+2025-10-02 22:38:38,898 [ERROR] IocParser:95 - Exception caught: null
+2025-10-02 22:38:38,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NUCLEO-G474RE
+2025-10-02 22:38:38,972 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-10-02 22:38:38,972 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-10-02 22:38:38,972 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-10-02 22:38:38,973 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-10-02 22:38:38,974 [INFO] CodeGenerator:882 - code generatio: config db path: /opt/st/stm32cubeide_1.18.1/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515//db/
+2025-10-02 22:38:39,152 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp_save
+2025-10-02 22:38:39,531 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/license.tmp
+2025-10-02 22:38:39,626 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp_save
+2025-10-02 22:38:39,875 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/gpio.tmp
+2025-10-02 22:38:40,028 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h_save
+2025-10-02 22:38:40,231 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_nucleo_conf.h
+2025-10-02 22:38:40,233 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp_save
+2025-10-02 22:38:40,428 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_inc.tmp
+2025-10-02 22:38:40,430 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp_save
+2025-10-02 22:38:40,631 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_vars.tmp
+2025-10-02 22:38:40,634 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp_save
+2025-10-02 22:38:40,832 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_init.tmp
+2025-10-02 22:38:40,833 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp_save
+2025-10-02 22:38:41,017 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_before_while.tmp
+2025-10-02 22:38:41,020 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp_save
+2025-10-02 22:38:41,205 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_inside_while.tmp
+2025-10-02 22:38:41,207 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp_save
+2025-10-02 22:38:41,352 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/bsp_common_demo_fct.tmp
+2025-10-02 22:38:41,363 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c_save
+2025-10-02 22:38:41,493 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_it.c
+2025-10-02 22:38:41,496 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h_save
+2025-10-02 22:38:41,602 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_it.h
+2025-10-02 22:38:41,612 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c_save
+2025-10-02 22:38:41,737 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/stm32g4xx_hal_msp.c
+2025-10-02 22:38:41,738 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp_save
+2025-10-02 22:38:41,806 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/MXTmpFiles/system.tmp
+2025-10-02 22:38:41,809 [INFO] CodeEngine:319 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h_save
+2025-10-02 22:38:41,888 [INFO] CodeEngine:343 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/stm32g4xx_hal_conf.h
+2025-10-02 22:38:41,916 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_CommonPeriphClockConfig is not available in your config.xml file
+2025-10-02 22:38:41,926 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h_save
+2025-10-02 22:38:42,015 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Inc/main.h
+2025-10-02 22:38:42,017 [INFO] CodeEngine:263 - oldGeneratedFile, /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c_save
+2025-10-02 22:38:42,143 [INFO] CodeEngine:287 - Generated code: /home/idris/Desktop/Embedded-Projects-STM32/Button_Toggle/Core/Src/main.c
+2025-10-02 22:38:42,416 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 24mS.
+2025-10-02 22:38:42,418 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-10-02 22:38:42,538 [INFO] ConfigFileManager:1590 - The Die is : DIE469
+2025-10-02 22:38:43,977 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1558mS.
+2025-10-02 22:38:43,977 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 22:38:43,979 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-10-02 23:06:18,262 [INFO] WebApp:194 - Connection lost
+2025-10-02 23:06:18,407 [INFO] WebApp:191 - Connection restablished
