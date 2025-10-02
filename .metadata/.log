@@ -1,0 +1,18 @@
+!SESSION 2025-10-02 16:05:01.282 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-02 16:05:17.135
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-02 16:05:17.135
+!MESSAGE Log4j2 initialized with config file /home/idris/Desktop/Embedded-Projects-STM32/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-02 16:05:20.062
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-02 16:08:55.641
+!MESSAGE Indexed 'RGB_LED' (24 sources, 86 headers) in 4.29 sec: 5,815 declarations; 29,601 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0056%)
