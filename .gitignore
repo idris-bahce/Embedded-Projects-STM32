@@ -1,0 +1,35 @@
+# Build output
+/Debug/
+/Release/
+/build/
+/*.elf
+/*.hex
+/*.bin
+/*.map
+
+# Eclipse / CubeIDE metadata
+/.settings/
+/.project
+/.cproject
+/.loadpath
+/.externalToolBuilders/
+
+# CubeIDE logs and metadata
+/.mxproject
+/.mxlaunch
+*.launch
+*.log
+
+# Temporary / generated files
+*.o
+*.d
+*.su
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# If you use STM32CubeMX separately
+*.ioc-bak
